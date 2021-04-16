@@ -1,5 +1,14 @@
 ## Front-End Fundamentals Day 1
 
+(Class 1) Introduction
+• History of HTML
+• Clients and Servers
+• Anatomy of a Website
+• Anatomy of an HTML element (tags, attributes, values)
+• File structure
+• Set up REPL
+
 1. Create a new folder
 2. Create a new REPL inside that folder
-3. Explore basic HTML code
+3. Explore basic HTML code and start website
+
