@@ -12,3 +12,106 @@
 2. Create a new REPL inside that folder
 3. Explore basic HTML code and start website
 
+## Code to demonstrate
+
+<!-- This is a comment -->
+<!-- Notice the "nesting" -->
+    <h1>H1 is the largest and most important heading.</h1>
+    <h2>H2 is the second largest heading.</h2>
+    <h3>H3 is the third largest heading.</h3>
+    <h4>H4 is the fourth largest heading.</h4>
+    <h5>H5 is the fifth largest heading.</h5>
+    <h6>H6 is the smallest heading.</h6>
+    <!-- View the page! -->
+    <p>This is a regular paragraph. The default size is 16px with some space above and below. Let's see what happens when we type a hard return using the "enter" on our keyboard.</p>
+    <p>This is the next paragraph on the page. Things are rolling along! What happens when we place a line break at the end of a sentence.<br/>
+    We are in the same paragraph. See!</p>
+    <p>This is the third paragraph on the page. Things continue to roll along! Here we go rolling and strolling. </p>
+    <!-- View the page! -->
+    <h3>Hyperlinks</h3>
+    <p><a href="https://www.askdesign.biz">Hyperlink to ASK Design</a></p>
+    <h4>Absolute URLs</h4>
+    <p><a href="https://www.w3.org/">W3C</a></p>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+    <h4>Relative URLs</h4>
+    <p><a href="/sample-relative-link.html">Relative Link page</a></p>
+    <p><a href="/sample-tutorial.html">Tutorial page</a></p>
+
+    <h4>Target Attribute</h4>
+    <p><a href="https://www.w3.org/" target="_self">W3C</a></p>
+    <p><a href="https://www.github.com/" target="_blank">Github</a></p>
+    <p><a href="https://www.google.com/" target="_parent" >Google</a></p>
+    <p><a href="/sample-relative-link.html" target="_top">Relative Link page</a></p>
+    <p><a href="/sample-tutorial.html" target="_self">Tutorial page</a></p>
+   
+    <img src="images/2020-02-22-09.45.58-orchid-195.jpg" alt="orchid">
+    &nbsp;<br/>
+<!-- Find Your Own Image and Place it in the document -->
+    <img src="images/massart-cacphome.jpg" alt="massart">
+    &nbsp;<br/>
+
+    <li>List item number 1</li>
+    <li>List item number 2</li>
+    <li>List item number 3</li>
+    <li>List item number 4</li>
+    <li>List item number 5</li>
+    <li>List item number 6</li>
+
+<!-- Notice the "nesting" -->
+    <ul>
+      <li>List item number 1</li>
+      <li>List item number 2</li>
+      <li>List item number 3</li>
+      <li>List item number 4</li>
+      <li>List item number 5</li>
+      <li>List item number 6</li>
+    </ul>
+
+    <ol>
+      <li>List item number 1</li>
+      <li>List item number 2</li>
+      <li>List item number 3</li>
+      <li>List item number 4</li>
+      <li>List item number 5</li>
+      <li>List item number 6</li>
+    </ol>
+
+    <dl>
+      <dt>Hot Drinks</dt>
+        <dd>- Coffee</dd>
+        <dd>- Tea</dd>
+        <dd>- Chai Latte</dd>
+      <dt>Cold Drinks</dt>
+        <dd>- Coffee</dd>
+        <dd>- Tea</dd>
+        <dd>- Orange Juice</dd>
+        <dd>- Soda</dd>
+    </dl>
+    
+    
+     <quote>"Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next….then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled ‘ORANGE MARMALADE’, but to her great disappointment it was empty: (Ch. 1)"</quote>
+    
+<!-- View the page! -->
+<!-- Check out the Source Code! -->
+
+    <table>
+      <tr>
+        <th>Fullname</th>
+        <th>Location</th>
+        <th>Occupation</th>
+      </tr>
+      <tr>
+        <td>Anne Katzeff</td>
+        <td>Belmont, MA</td>
+        <td>Web Designer</td>
+      </tr>
+      <tr>
+        <td>Jaylen Brown</td>
+        <td>Boston, MA</td>
+        <td>Basketball Player</td>
+      </tr>
+    </table>
+
+    <h4><a href="/day2.html">day2</a></h4>
+    <h4><a href="/day3.html">day3</a></h4>

@@ -11,3 +11,57 @@
 • Google Fonts
 • Alternatives to divs and floats: flexbox, grid
 
+## Code to demonstrate
+
+<!-- Basic Menu at top of page -->
+<header>
+    <nav>
+    <h4><a href="/index.html">day1</a></h4>
+    <h4><a href="/day2.html">day2</a></h4>
+    </nav>
+
+    <h1>Styling and Customizations</h1>
+</header>
+<main>
+  <article>
+    <h3>HTML5 Semantic Elements</h3>
+    <p><img src="images/html-semantics-element-diagram.jpg" alt="html semantics diagram"></p>
+  </article>
+  <article>
+    <h2>Visual Studio Code</h2>
+  </article>
+  <article>
+    <h2>Github Desktop</h2>
+  </article>
+    <h2>More CSS</h2>
+    <h3>IDs and Classes</h3>
+<!-- Commit changes to Git -->
+
+    <h3>Divs and Floats</h3>
+    <h3>Layout</h3>
+    <h4>Review: HTML5 Semantic Elements</h4>
+    <p><img src="images/html-semantics-element-diagram.jpg" alt="html semantics diagram"></p>
+
+    <ul>
+      <li>Google Chrome Dev Tools</li>
+      <li>Google Fonts</li>
+      <li>Bootstrap Framework</li>
+      <li>Alternatives to divs and floats: flexbox, grid</li>
+      <ul>
+        <li>https://www.w3schools.com/css/css3_flexbox.asp</li>
+        <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+        <li>https://www.w3schools.com/css/css_grid.asp</li>
+        <li>https://css-tricks.com/snippets/css/complete-guide-grid/
+</li>
+    </ul></ul>
+
+
+<!-- Commit changes to Git -->
+    <p><a href="https://massart.edu/"><img src="images/massart-cacphome.jpg" alt="massart"></a>
+    <br/>
+
+<!-- Compare divs to flexbox -->
+
+
+
+</main>
