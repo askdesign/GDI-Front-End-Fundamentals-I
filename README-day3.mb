@@ -16,8 +16,8 @@
 <!-- Basic Menu at top of page -->
 <header>
     <nav>
-    <h4><a href="/index.html">day1</a></h4>
-    <h4><a href="/day2.html">day2</a></h4>
+    <li><a href="/index.html">day1</a></li>
+    <li><a href="/day2.html">day2</a></li>
     </nav>
 
     <h1>Styling and Customizations</h1>
