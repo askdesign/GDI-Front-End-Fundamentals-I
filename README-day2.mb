@@ -5,7 +5,8 @@
 • Continue with HTML and introduce CSS  
 • Individual: Style your web page
 • BREAKOUT GROUPS: Style the MassArt web page
-HOMEWORK: Debug a web page
+HOMEWORK: Debug a web page. Identify problems. Suggest solutions. 
+http://www.joylakinggallery.com/
 
 ## Code to demonstrate
 
@@ -62,11 +63,19 @@ HOMEWORK: Debug a web page
 
 <!-- Back to slide show for a few minutes -->
     <h2>CSS</h2>
+    <h3>What can it do?</h3>
+    <ul>
+      <li>Colors: fonts, background</li>
+      <li>Fonts: font-family (defaults), size, weight, style</li>
+      <li>Sizes: heads, text</li>
+      <li>Position: alignment, margins, padding</li>
+      <li>Borders</li>
+    </ul>
     <p><img src="images/cssrule.jpg" alt="css rule diagram" width="500"></p>
     <ul>
       <li>A block of CSS code is a rule.</li>
       <li>The rule starts with a selector.</li>
-      </li>has sets of properties and values.</li>
+      <li>It has sets of properties and values.</li>
       <li>A property-value pair is a declaration.</li>
     </ul>
 
@@ -75,4 +84,6 @@ HOMEWORK: Debug a web page
 <!-- Internal -->
 
 <!-- External -->
+
+
 
