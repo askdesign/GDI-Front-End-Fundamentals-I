@@ -1,8 +1,9 @@
 ## Front-End Fundamentals Day 2
 
-(Class 2) Introduction
+(Class 2) Exploring
 • Set up Github: repositories, forks
 • Continue with HTML and introduce CSS  
+• Google Chrome Dev Tools
 • Individual: Style your web page
 • BREAKOUT GROUPS: Style the MassArt web page
 HOMEWORK: Debug a web page. Identify problems. Suggest solutions. 
@@ -28,6 +29,11 @@ p {
   width: 600px;
   margin: 0 50% 12px 0;
 }
+/* --- comment out a css rule
+li, a {
+  color: #a61393;
+}
+--- */
 
 blockquote {
   color: #0187d1;
@@ -164,13 +170,20 @@ http://www.cupcakeipsum.com/
       <li style="color:#13a664"><a href="#">It has sets of properties and values.</a></li>
       <li style="color:#13a664"><a href="#">A property-value pair is a declaration.</a></li>
     </ul>
-
+<p>&nbsp;</p>
 <!-- Internal - add to head area -->
+<!-- Let's switch to Internal CSS -->
+
+    <ul style="list-style-type: none; margin:0; padding:0">
+      <li><a href="#">Active page.</a></li>
+      <li><a href="#">The rule starts with a selector.</a></li>
+      <li><a href="#">It has sets of properties and values.</a></li>
+      <li><a href="#">A property-value pair is a declaration.</a></li>
+    </ul>
+
 <!-- Let's style the Quote! -->
     <blockquote>"Either the well was very deep, or she fell very slowly, for she had plenty of time as she went down to look about her and to wonder what was going to happen next….then she looked at the sides of the well, and noticed that they were filled with cupboards and book-shelves; here and there she saw maps and pictures hung upon pegs. She took down a jar from one of the shelves as she passed; it was labelled ‘ORANGE MARMALADE’, but to her great disappointment it was empty: (Ch. 1)"</blockquote>
 
 
 <!-- External -->
-
-
 
