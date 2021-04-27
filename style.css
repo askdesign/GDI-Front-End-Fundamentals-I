@@ -1,0 +1,65 @@
+body {
+  background-color: #e9ecee;
+}
+
+header {
+  background-color: #a0abe5;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 42px;
+  color: #9d3b3b;
+  margin-left: 40px;
+}
+
+h2 {
+  font-family: Georgia;
+  font-size: 36px;
+  color: #9d3b3b;
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: Georgia;
+  font-size: 30px;
+  color: #9d3b3b;
+  margin-left: 0;
+}
+
+h4, h5, h6 {
+  font-family: Georgia;
+  font-size: 28px;
+  color: #9d3b3b;
+  margin-left: 0;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p {
+  color: #0187d1;
+  width: 600px;
+  margin: 0 50% 12px 0;
+}
+/* --- comment out a css rule
+li, a {
+  color: #a61393;
+}
+--- */
+
+blockquote {
+  color: #0187d1;
+  width: 450px;
+  margin: 12px 0;
+  padding: 20px;
+  font-family: Georgia;
+  font-size: 36px;
+  text-align: center;
+  border: 1px solid #0187d1;
+}

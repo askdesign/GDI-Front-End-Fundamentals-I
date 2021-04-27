@@ -95,6 +95,7 @@ blockquote {
     <h3>IDs and Classes</h3>
     <h3>CSS exercises - https://www.w3schools.com/css/exercise.asp</h3>
 
+
 <!-- Commit changes to Git -->
   </section>
   <section>
@@ -120,8 +121,11 @@ blockquote {
 <!-- Commit changes to Git -->
     <p><a href="https://massart.edu/"><img src="images/massart-cacphome.jpg" alt="massart"></a>
     <br/>
+<!-- Quiz -->
+<a href="https://www.w3schools.com/quiztest/quiztest.asp?qtest=CSS">CSS Quiz</a>
 
 <!-- Compare divs to flexbox -->
+
 </main>
 
 
