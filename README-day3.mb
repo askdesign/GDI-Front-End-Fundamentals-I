@@ -94,10 +94,9 @@ blockquote {
     <h2>More CSS</h2>
     <h3>IDs and Classes</h3>
     <h3>CSS exercises - https://www.w3schools.com/css/exercise.asp</h3>
-
-
-<!-- Commit changes to Git -->
   </section>
+  <!-- Commit changes to Git -->
+
   <section>
     <h3>Divs and Floats</h3>
     <h3>Layout</h3>

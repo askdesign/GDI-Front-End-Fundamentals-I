@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: #a0abe5;
+  background-color: #dce048;
 }
 
 h1 {
@@ -47,11 +47,20 @@ p {
   width: 600px;
   margin: 0 50% 12px 0;
 }
-/* --- comment out a css rule
+
+/* - will one hyphen work? - */
+ul {
+  color: #0187d1;
+  width: 400px;
+}
+
 li, a {
   color: #a61393;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  list-style: none;
 }
---- */
+
 
 blockquote {
   color: #0187d1;
