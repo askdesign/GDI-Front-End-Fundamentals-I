@@ -90,3 +90,14 @@ li, a {
 .centered {
   text-align: center;
 }
+
+.column-1 {
+  float: left;
+  width: 300px;
+  margin-right: 10px
+}
+
+.column-2 {
+  float: left;
+  width: 300px;
+}
