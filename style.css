@@ -34,6 +34,7 @@ h4, h5, h6 {
   margin-left: 0;
 }
 
+
 h5 {
   font-size: 24px;
 }
@@ -84,4 +85,8 @@ li, a {
 
 .active {
   color: #ffffff;
+}
+
+.centered {
+  text-align: center;
 }
