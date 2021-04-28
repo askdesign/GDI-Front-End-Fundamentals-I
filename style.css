@@ -101,3 +101,8 @@ li, a {
   float: left;
   width: 300px;
 }
+
+.column-3 {
+  float: right;
+  width: 300px;
+}
