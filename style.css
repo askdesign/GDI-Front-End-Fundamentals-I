@@ -45,6 +45,7 @@ h6 {
 
 p {
   color: #0187d1;
+  color: inherit;
   width: 600px;
   margin: 0 50% 12px 0;
 }
@@ -93,16 +94,24 @@ li, a {
 
 .column-1 {
   float: left;
+  clear: both;
   width: 300px;
-  margin-right: 10px
+  margin-right: 10px;
+  color: #162098;
 }
 
 .column-2 {
   float: left;
   width: 300px;
+  color: #16988d;
 }
 
 .column-3 {
-  float: right;
+  float: left;
   width: 300px;
+  color: #9d6816;
+}
+
+p.column {
+  width: 100%;
 }
