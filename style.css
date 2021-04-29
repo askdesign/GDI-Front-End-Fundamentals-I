@@ -4,6 +4,7 @@ body {
 
 header {
   background-color: #dce048;
+  padding: 10px;
 }
 
 h1 {
@@ -34,7 +35,6 @@ h4, h5, h6 {
   margin-left: 0;
 }
 
-
 h5 {
   font-size: 24px;
 }
@@ -61,28 +61,75 @@ blockquote {
   border: 1px solid #0187d1;
 }
 
-#primary-nav {
+/* --- Navigation Menu --- */
+#primary-nav, #vertical-nav {
   width: 400px;
   background-color: #3cb187;
-  margin-top: 60px;
-  margin-bottom: 120px;
-  margin: 60px 0 120px 0;
+  /* --- change to auto to center --- */
+  margin: 20px 0 40px 0;
+
 }
 
-/* - will one hyphen work? - */
-ul {
+#primary-nav ul, #vertical-nav ul {
   color: #0187d1;
   width: 400px;
+  list-style-type: none;
+  padding: 0;
+  /* --- change to text-align: center --- */
+
 }
 
+/* --- Need to add ID to specify primary nav list items and hyperlinks --- */
 li, a {
   color: #2d13a6;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
-  list-style: none;
   display: inline-block;
   padding: 10px 5px;
 }
+
+#vertical-nav li {
+  color: #2d13a6;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  display: block;
+  padding: 10px 5px;
+}
+
+/* --- Forms --- */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #3cb187;
+  color: #e6db64;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1f5a44;
+}
+
+.contactform {
+  border-radius: 5px;
+  border: 1px solid #c9c2c2;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
 
 .active {
   color: #ffffff;
