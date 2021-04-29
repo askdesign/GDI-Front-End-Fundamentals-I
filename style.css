@@ -7,29 +7,29 @@ header {
   padding: 10px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Serif Pro', serif;
+}
+
 h1 {
-  font-family: Georgia;
   font-size: 42px;
   color: #9d3b3b;
   margin-left: 40px;
 }
 
 h2 {
-  font-family: Georgia;
   font-size: 36px;
   color: #9d3b3b;
   margin-left: 20px;
 }
 
 h3 {
-  font-family: Georgia;
   font-size: 30px;
   color: #9d3b3b;
   margin-left: 0;
 }
 
 h4, h5, h6 {
-  font-family: Georgia;
   font-size: 28px;
   color: #9d3b3b;
   margin-left: 0;
@@ -48,6 +48,7 @@ p {
   color: inherit;
   width: 600px;
   margin: 0 50% 12px 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 blockquote {
@@ -66,21 +67,28 @@ blockquote {
   width: 400px;
   background-color: #3cb187;
   /* --- change to auto to center --- */
+  margin: 20px auto 40px auto;
+
+}
+
+#vertical-nav {
+  width: 200px;
   margin: 20px 0 40px 0;
 
 }
 
 #primary-nav ul, #vertical-nav ul {
   color: #0187d1;
-  width: 400px;
+  /* --- width: 400px; --- */
   list-style-type: none;
   padding: 0;
+  text-align: center;
   /* --- change to text-align: center --- */
 
 }
 
 /* --- Need to add ID to specify primary nav list items and hyperlinks --- */
-li, a {
+#primary-nav li, #primary-nav a {
   color: #2d13a6;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
@@ -88,7 +96,7 @@ li, a {
   padding: 10px 5px;
 }
 
-#vertical-nav li {
+#vertical-nav li, #vertical-nav and {
   color: #2d13a6;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;

@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Source+Serif+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
     <script src="script.js"></script>
 
-<!-- Styled Menu at top of page -->
+    <!-- Styled Menu at top of page -->
 <header>
   <nav id="primary-nav"><ul>
   <li><a href="index.html">day1</a></li>
@@ -32,66 +34,34 @@
 </section>
 
 <section>
-<article class="contactform">
-<h3>Forms</h3>
-<!-- https://www.htmldog.com/techniques/formtoemail/ -->
-<!-- Try with Get and Post -->
-<h4>Text Fields</h4>
-<form action="contact_action.php" target="_blank" method="post">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="Jane"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+  <h3>Divs and Floats</h3>
+  <h3>Layout</h3>
+  <h4>Review: HTML5 Semantic Elements</h4>
+  <p><img src="images/html-semantics-element-diagram.jpg" alt="html semantics diagram"></p>
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "contact_action.php".</p>
-<p>Get = After you submit, notice that the form values is visible in the address bar of the new browser tab.</p>
-<p>Post = After you submit, notice that, unlike the GET method, the form values is NOT visible in the address bar of the new browser tab.</p>
-</article>
+  <ul>
+    <li>Google Chrome Dev Tools</li>
+    <li>Google Fonts</li>
+    <li>Bootstrap Framework</li>
+    <li>Alternatives to divs and floats: flexbox, grid</li>
+    <ul>
+      <li>https://www.w3schools.com/css/css3_flexbox.asp</li>
+      <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+      <li>https://www.w3schools.com/css/css_grid.asp</li>
+      <li>https://css-tricks.com/snippets/css/complete-guide-grid/</li>
+      </ul>
+  </ul>
+</section>
 
-<article class="contactform">
-  <h4>Radio Buttons</h4>
-<form action="contact_action.php" target="_blank" method="get">
-  <input type="radio" id="male" name="gender" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio" id="female" name="gender" value="female">
-  <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label><br><br>
-  <input type="submit" value="Submit">
-</form>
-</article>
-
-<article>
-<h4>Check Boxes</h4>
-<form action="contact_action.php" target="_blank" method="get">
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label><br><br>
-  <input type="submit" value="Submit">
-</form>
-</article>
-
-<article class="contactform">
-  <h4>Send e-mail to someone@example.com:</h4>
-
-<form action="mailto:askdesign2@yahoo.com" method="post" enctype="text/plain">
-  First Name:<br>
-  <input type="text" name="fname"><br>
-  Last Name:<br>
-  <input type="text" name="lname"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-Comment:<br>
-<input type="text" name="comment" size="50"><br><br>
-<input type="submit" value="Send">
-<input type="reset" value="Reset">
-</form>
-</article></section>
+<section>
+  <img src="images/2020-02-22-09.45.58-orchid-195.jpg" alt="orchid">
+    &nbsp;<br/>
+<!-- Find Your Own Image and Place it in the document -->
+    <img src="images/massart-cacphome.jpg" alt="massart" width="200px">
+    &nbsp;<br/>
+    <img src="demo-folder/portil1920-encouragement.png" alt="encouragement" width="300px">
+    &nbsp;<br/>
+</section>
 
   </body>
 </html>

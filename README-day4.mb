@@ -3,8 +3,12 @@
 (Class 4) Styling and Customizations
 • Style 1 interior page
 • Build a nav menu
+• Google Fonts
+• Alternatives to divs and floats: flexbox, grid
 • Sizing Images, making them responsive
+• Web hosts and domain name - on Tues.
 • Maybe: Build a form for a Contact page
+• Web host recommendations
 • Give people my Github account URL:
 https://github.com/askdesign/GDI-Front-End-Fundamentals-I
 
@@ -21,6 +25,9 @@ https://www.w3schools.com/css/css_navbar.asp
 https://www.w3schools.com/html/html_forms.asp
 
 https://www.w3schools.com/css/css_form.asp
+
+<! -- Accordion -->
+https://www.w3schools.com/howto/howto_js_accordion.asp
 
 
 <!-- Styled Menu at top of page -->
@@ -44,6 +51,28 @@ https://www.w3schools.com/css/css_form.asp
     <li><a class="active" href="day4.html">day3</a></li>
     </ul></nav>
 </section>
+
+<section>
+    <h3>Divs and Floats</h3>
+    <h3>Layout</h3>
+    <h4>Review: HTML5 Semantic Elements</h4>
+    <p><img src="images/html-semantics-element-diagram.jpg" alt="html semantics diagram"></p>
+
+    <ul>
+      <li>Google Chrome Dev Tools</li>
+      <li>Google Fonts</li>
+      <li>Bootstrap Framework</li>
+      <li>Alternatives to divs and floats: flexbox, grid</li>
+      <ul>
+        <li>https://www.w3schools.com/css/css3_flexbox.asp</li>
+        <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
+        <li>https://www.w3schools.com/css/css_grid.asp</li>
+        <li>https://css-tricks.com/snippets/css/complete-guide-grid/</li>
+        <li>https://www.sitepoint.com/css-grid-generators/<li>
+        </ul>
+    </ul>
+</section>
+
 
 <section>
 <article class="contactform">
