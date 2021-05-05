@@ -8,7 +8,6 @@
 • Sizing Images, making them responsive
 • Web hosts and domain name - on Tues.
 • Maybe: Build a form for a Contact page
-• Web host recommendations
 • Give people my Github account URL:
 https://github.com/askdesign/GDI-Front-End-Fundamentals-I
 
