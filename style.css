@@ -62,6 +62,19 @@ blockquote {
   border: 1px solid #0187d1;
 }
 
+/* --- Hyperlinks --- */
+li {
+  color: #2d13a6;
+}
+
+a {
+  color: #a61393;
+}
+
+a:hover {
+  color: #6913a6;
+}
+
 /* --- Navigation Menu --- */
 .primary-nav, #vertical-nav {
   width: 400px;
