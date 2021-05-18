@@ -6,6 +6,7 @@ https://github.com/askdesign/GDI-Front-End-Fundamentals-I
 • review HTML and CSS, esp. divs and floats (show columns again). 
 • Spend time resolving issues of  students in the class.  
 • Style 2nd interior page, if there's time.
+
 • Domain name recommendations:
 (1) GoDaddy
 https://in.godaddy.com/
